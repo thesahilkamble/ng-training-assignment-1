@@ -1,0 +1,29 @@
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th, 
+.task-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+    background-color: #f2f2f2;
+}
+
+.task-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.task-table button {
+    background-color: #f0ad4e;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
