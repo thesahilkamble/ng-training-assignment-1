@@ -16,5 +16,7 @@ return(
             ))}
         </ul>
         </div>
-)
-}
+);
+};
+
+export default TaskList;
