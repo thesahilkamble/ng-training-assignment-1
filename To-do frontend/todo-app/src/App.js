@@ -1,15 +1,10 @@
-import React from 'react';
-import TaskList from './components/TaskList';
-import TaskForm from './components/TaskForm';
-import DeleteModal from './components/DeleteModal';
-import './assets/css/styles.css';
+import './App.css';
+import { TodoWrapper } from './components/TodoWrapper';
 
 function App() {
   return (
     <div className="App">
-      <TaskList />
-      <TaskForm />
-      <DeleteModal />
+      <TodoWrapper  />
     </div>
   );
 }
